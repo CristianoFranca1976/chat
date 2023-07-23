@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #09090A 0%, #181719 37.50%, #36343B 100%, #39363D 100%);
+}
+
+#container {
+
+   
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    border-bottom: 24px solid #8257e5;
+    box-shadow: 0px -8px 28px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.text-box {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 744px;
+    height: 752px;
+    margin-left: 180px;
+    margin-top: 164px;
+}
+
+.info {
+    
+    width: 744px;
+    height: 406px;
+
+}
+
+.info1 {
+    display: flex;
+}
+.info img {
+    width: 57.964px;
+    height: 71.999px;
+}
+
+.tag {
+    
+    background-repeat: no-repeat;
+    background-image: url(./assets/bora1.png);
+    background-position: center;
+    width: 421px;
+    height: 112px;
+    border-radius: 999px;
+    background-color: #202024;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 4px 8px 0px rgba(0, 0, 0, 0.15),
+     0px 14px 14px 0px rgba(0, 0, 0, 0.13), 0px 32px 19px 0px rgba(0, 0, 0, 0.08), 
+     0px 57px 23px 0px rgba(0, 0, 0, 0.02), 0px 89px 25px 0px rgba(0, 0, 0, 0.00);
+}
+.img2 img{
+
+    width: 303.12px;
+    height: 89.035px;
+    margin-left: 10px;
+}
+
+h1 {
+
+   
+   width: 744px;
+   height: auto; 
+   color: var(--neutral-colors-white, #FFF);
+   font-family: Roboto Condensed;
+   font-size: 120px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%; 
+   margin-top: 104px;
+   padding: 0;
+
+}
+
+p {
+    
+    width: 744px;
+    height: auto;
+    color: var(--neutral-colors-gray-gray-300, #8D8D99);
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: -70px;
+    
+}
+
+
+
+.tag:hover {
+    
+    background-color: #202024da;
+    cursor: pointer;
+    border: 5px solid red;
+    box-shadow: 20px -5px rgb(67, 4, 2);
+    
+}
+
+.img-box {
+   
+    width: 1252px;
+    height: 925px;
+    margin-left: 221px;
+    margin-top: 104px;
+    background-image: url(./assets/Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    z-index: -1;
+    
+
+}
+
+.img1-box {
+
+    
+    display: flex;
+    flex-direction: initial;
+    position: absolute;
+    margin-top: 0;
+    width: 400px;
+    height: 950px;
+    margin-top: 280px;
+    margin-left: 1094px;
+    background-image: url(assets/Image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: -1;
+
+}
